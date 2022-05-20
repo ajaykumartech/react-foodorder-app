@@ -12,7 +12,7 @@ const AvailableMeals = () => {
 
   useEffect( () => {
       const fetchMeals = async () =>{
-        const response =await fetch('https://react-http-d331f-default-rtdb.firebaseio.com/meals.json');
+        const response =await fetch('https://hungry-food-3109a-default-rtdb.asia-southeast1.firebasedatabase.app/meals.json');
 
         if(!response.ok){
           throw new Error('Somrthing Went Wrong');
