@@ -15,7 +15,7 @@ const AvailableMeals = () => {
         const response =await fetch('https://hungry-food-3109a-default-rtdb.asia-southeast1.firebasedatabase.app/meals.json');
 
         if(!response.ok){
-          throw new Error('Somrthing Went Wrong');
+          throw new Error('Something went wrong');
         }
         const responseData =await response.json();
 

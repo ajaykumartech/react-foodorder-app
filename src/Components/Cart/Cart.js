@@ -35,7 +35,7 @@ const Cart = props =>{
                orderedItems:cartCtx.items, 
            })
         });
-        setIsSubmitting(false);
+        setIsSubmitting(false); 
         setDidSubmit(true);
         cartCtx.clearCart();
      };
